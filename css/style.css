@@ -1,0 +1,137 @@
+a{
+    text-decoration:none;
+    color:cornsilk;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, blue, white);
+    height: 100vh;
+    width: 100vw;
+}
+
+.cabecalho{
+    overflow: hidden;
+    margin: auto;
+    width: 97,5%;
+    background: blue;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li{
+    float: left;
+    color: black;
+    margin-left: 15px;
+}
+
+.logo{
+    float: left;
+    color: cornsilk;
+}
+
+.top{
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 30px;
+    align-items: center;  
+}
+
+#tarefas{
+    outline: none;
+    border: 2px;
+    width: 25vw;
+    height: 35px;
+    color: black;
+    font-weight: 600;
+    padding-left: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 27vw;
+}
+
+.button{
+    cursor: pointer;   
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+section{    
+    border-radius: 50px;
+    border: 8px;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.titulo{
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+
+    .logo{
+        float: none;
+        text-align: center;
+    }
+    
+    .menu{
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    li{
+        float: none;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .logo{
+        float: none;
+        text-align: center;
+    }
+    
+    .menu{
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    li{
+        float: none;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+}
+
+
+

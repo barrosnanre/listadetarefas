@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./imagens/ico_site.png" type="image/png">
+    <title>Lista de Tarefas</title>
+    
+</head>
+
+<body>
+    
+    <header>
+       <div class="cabecalho">
+            <div class="logo">
+                Desenvolvido por <i> Renan Barros e Souza</i>
+            </div>
+            <div class="menunav">
+                <ul class="menu">
+                    <li>
+                        <a href="https://wa.me/5524998476311">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>    
+    <section>
+            
+        <h1 class="titulo">Lista de Tarefas</h1>   
+            <div class="top">
+                
+                <input onblur="this.focus()" autofocus="" type="text" id="tarefas" placeholder="Digite a tarefa que deseja armazenar">
+               <div class="button" id="criar"><img src="./imagens/addButton.png"></div>
+               <div class="button" id="apagar"><img src="./imagens/deletebutton.svg"></div>
+            </div>              
+            <ol id="listadetarefas"></ol>
+    </section>
+    <script src="./js/script.js"></script> 
+</body>
+</html>
